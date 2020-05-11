@@ -8,5 +8,5 @@ func main
 	? copy("=",C_LINESIZE)
 	cDir = currentdir()
 	chdir(exefolder()+"/../applications/escape")
-	system("ring escape.ring")
+	system("ring EscapeGame.ring")
 	chdir(cDir)
